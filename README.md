@@ -1,16 +1,16 @@
 CS 418 MP3 -- Teapot Contest  
 By Tianyi Wang  
-
-
+  
+  
 User interation:  
-
+  
 ESC or 'q':  quit the program.  
 'r': start or pause teapot rotation.  
 'c': turn on or off the teapot texture.  
 'v': turn on or off the environment mapping.  
 'b': turn on or off the lighting.  
-
-
+  
+  
 Note:  
 1. Shaders are not used in this program.  
 2. Scene is rendered in perspective projection.  
@@ -26,10 +26,10 @@ left side.
 Therefore on a machines that does not have GLEW installed as a shared library,  
 this project can still be compiled independently, and the pre-compiled executable  
 can still run.  
-
-
+  
+  
 Files explanations:  
-
+  
 Teapot mesh information is stored in "wang103-mp3/Release/teapot.obj".  
 Texture used for sphere mapping is at "wang103-mp3/Release/env-texture.jpg".  
 Texture used on the teapot is at "wang103-mp3/Release/teapot-texture.jpg".  
